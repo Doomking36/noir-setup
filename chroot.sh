@@ -9,8 +9,8 @@ git clone https://github.com/noirlinux/main /home/dk/repos/noir
 
 . ~/.profile
 
-echo | kiss update
-echo | kiss b baseinit grub e2fsprogs dhcpcd ncurses libelf perl vim libudev-zero util-linux
+yes | kiss update
+yes | kiss b baseinit grub e2fsprogs dhcpcd ncurses libelf perl vim libudev-zero util-linux
 
 git clone https://github.com/Doomking36/vmware
 cd vmware
