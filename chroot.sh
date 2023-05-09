@@ -11,7 +11,7 @@ git clone https://github.com/ehawkvu/kiss-xorg /home/dk/repos/xorg
 
 . ~/.profile
 
-yes | kiss c b3sum pkgconf
+yes | kiss c b3sum pkgconf baselayout binutils busybox curl flex gcc git kiss linux-headers make musl openssl xz
 
 yes | kiss update
 yes | kiss b baseinit grub e2fsprogs dhcpcd ncurses libelf perl vim libudev-zero util-linux opendoas
