@@ -5,7 +5,9 @@ mv profile /home/dk
 cd /home/dk
 mv profile ~/.profile
 
-git clone https://github.com/noirlinux/main /home/dk/repos/noir
+git clone https://github.com/kiss-community/repo /home/dk/repos/repo
+git clone https://github.com/kiss-community/community /home/dk/repos/community
+git clone https://github.com/ehawkvu/kiss-xorg /home/dk/repos/xorg
 
 . ~/.profile
 
