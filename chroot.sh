@@ -12,7 +12,7 @@ git clone https://github.com/ehawkvu/kiss-xorg /home/dk/repos/xorg
 . ~/.profile
 
 yes | kiss update
-yes | kiss b baseinit grub e2fsprogs dhcpcd ncurses libelf perl vim libudev-zero util-linux
+yes | kiss b baseinit grub e2fsprogs dhcpcd ncurses libelf perl vim libudev-zero util-linux opendoas
 
 git clone https://github.com/Doomking36/vmware
 cd vmware
@@ -29,13 +29,6 @@ echo root:123 | chpasswd
 adduser -h /home/dk dk
 echo dk:123 | chpasswd
 addgroup dk wheel
-
-git clone https://codeberg.org/sw1tchbl4d3/rdo
-cd rdo
-mkdir -p /usr/local/bin
-make
-make install
-cd ..
 
 su dk << EOT
 git clone https://github.com/Doomking36/noir-setup
