@@ -14,7 +14,7 @@ git clone https://github.com/ehawkvu/kiss-xorg /home/dk/repos/xorg
 kiss c b3sum pkgconf baselayout binutils busybox curl flex gcc git kiss linux-headers make musl openssl xz zlib m4 gmp libmpc mpfr bison certs
 
 yes | kiss update
-kiss c baseinit grub e2fsprogs dhcpcd ncurses libelf perl vim libudev-zero util-linux opendoas
+kiss c baseinit grub e2fsprogs dhcpcd ncurses libelf perl vim libudev-zero util-linux opendoas pkgconf
 yes | kiss b baseinit grub e2fsprogs dhcpcd ncurses libelf perl vim libudev-zero util-linux opendoas
 
 git clone https://github.com/Doomking36/vmware
